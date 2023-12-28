@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/94e5f6b23f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Kanban Board</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="toolbox-cnt">
+      <div class="toolbox-priority-cnt">
+        <div class="light-pink color"></div>
+        <div class="light-green color"></div>
+        <div class="light-blue color"></div>
+        <div class="black color"></div>
+      </div>
+      <div class="action-btn-cnt">
+        <div class="add-btn">
+          <i class="fa-sharp fa-solid fa-plus"></i>
+        </div>
+        <div class="remove-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+    <div class="modal-cnt">
+      <textarea class="textarea-cnt" placeholder="Enter your task"></textarea>
+      <div class="priority-color-cnt">
+        <div class="priority-color light-pink active"></div>
+        <div class="priority-color light-green"></div>
+        <div class="priority-color light-blue"></div>
+        <div class="priority-color black"></div>
+      </div>
+    </div>
+    <!-- ticket -->
+    <div class="main-cnt">
+      <!-- <div class="ticket-cnt">
+        <div class="ticket-color" style="background-color: lightblue"></div>
+        <div class="ticket-id">2nCAu</div>
+        <div class="task-name">c</div>
+      </div> -->
+    </div>
+
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/shortid/2.2.16/index.js"
+      referrerpolicy="no-referrer"
+    ></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@5.0.3/dist/short-unique-id.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
