@@ -111,13 +111,21 @@ body {
 }
 .ticket-color {
   height: 1rem;
-  background-color: lightpink;
+  /* background-color: lightpink; */
 }
 .ticket-id {
   height: 2rem;
   background-color: yellow;
 }
 .task-name {
-  height: 9rem;
+  height: 7rem;
   background-color: coral;
+}
+.ticket-lock {
+  height: 2rem;
+  background-color: coral;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3%;
 }
